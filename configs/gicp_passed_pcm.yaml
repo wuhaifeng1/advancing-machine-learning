@@ -1,0 +1,25 @@
+data_dir: ../generated_data/gicp_passed_pcm_status_rerun_20260528
+output_dir: ../outputs/loop_matching_analysis
+transforms: ../outputs/diagnosis/gicp_transforms.json
+
+use_only_pairs_with_pcd: true
+
+distance_threshold: 0.4
+
+scan_context:
+  num_rings: 20
+  num_sectors: 60
+  max_radius_m: 80.0
+  distance_threshold: 0.4
+  top_k: 20
+
+pcm:
+  se2_threshold: 15.0
+  min_clique_size: 3
+
+# Geometric plausibility gate (proposed improvement):
+# reject candidates whose implied inter-robot translation exceeds the
+# scan-overlap bound. Half of the Scan Context max radius (80 m) is used;
+# the separation is insensitive to this value over roughly [15, 78] m.
+plausibility_gate:
+  max_translation_m: 40.0

@@ -1,0 +1,26 @@
+{
+  "name": "scenario_02_long2_rerun_20260528",
+  "description": "long2 rerun on 2026-05-28. The selected back segment is used as a hard-negative/failure analysis scene.",
+  "source_bag": "/home/wurenche/C-SLAM-DATASET/fixed-merged-bag/long2_merged_fixed.bag",
+  "colrio_run_dir": "/home/wurenche/co_lrio_output/20260528_ml_joint_rerun_analysis/long2_my_long1_params",
+  "time_window": [
+    1090.0,
+    1189.0
+  ],
+  "label_rule": "long2_back",
+  "num_pairs": 10,
+  "num_pairs_with_pcd": 10,
+  "num_positive": 0,
+  "num_negative": 10,
+  "source_scenario_dir": "/home/wurenche/Downloads/机器学习大作业/extracted_data_rerun_20260528/scenario_02_long2_rerun_20260528",
+  "filter_rule": "status == passed and pcd_saved == 1",
+  "pcm_log_path": "/home/wurenche/co_lrio_output/20260528_ml_joint_rerun_analysis/long2_my_long1_params/long2_my_long1_params.launch.log",
+  "pcm_status_counts": {
+    "accepted_used": 9,
+    "pending_not_used": 1
+  },
+  "failure_type_counts": {
+    "pcm_accepted_false_positive": 9,
+    "gicp_false_positive_not_used": 1
+  }
+}

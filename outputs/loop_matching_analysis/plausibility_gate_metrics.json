@@ -1,0 +1,26 @@
+{
+  "max_translation_threshold_m": 40.0,
+  "num_candidates": 20,
+  "num_true": 3,
+  "num_false": 17,
+  "baseline_pcm_only": {
+    "final_used": 16,
+    "final_used_true": 3,
+    "final_used_false": 13,
+    "true_retention_rate": 1.0,
+    "false_acceptance_rate": 0.7647058823529411,
+    "final_used_precision": 0.1875
+  },
+  "pcm_plus_gate": {
+    "final_used": 7,
+    "final_used_true": 3,
+    "final_used_false": 4,
+    "true_retention_rate": 1.0,
+    "false_acceptance_rate": 0.23529411764705882,
+    "final_used_precision": 0.42857142857142855
+  },
+  "gate_alone": {
+    "false_rejected": 10,
+    "true_rejected": 0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source_data_dir": "/home/wurenche/Downloads/机器学习大作业/extracted_data_rerun_20260528",
+  "filter_rule": "status == passed and pcd_saved == 1",
+  "num_pairs": 20,
+  "num_positive": 3,
+  "num_negative": 17,
+  "pcm_status_counts": {
+    "accepted_used": 16,
+    "rejected_not_used": 3,
+    "pending_not_used": 1
+  },
+  "failure_type_counts": {
+    "pcm_accepted_false_positive": 13,
+    "accepted_true_loop": 3,
+    "gicp_false_positive_not_used": 4
+  },
+  "scenarios": [
+    {
+      "scenario": "scenario_01_long1_rerun_20260528",
+      "output_dir": "/home/wurenche/Downloads/机器学习大作业/multi_robot_loop_detection/generated_data/gicp_passed_pcm_status_rerun_20260528/scenario_01_long1_rerun_20260528",
+      "num_pairs": 10,
+      "pcm_status_counts": {
+        "accepted_used": 7,
+        "rejected_not_used": 3
+      },
+      "failure_type_counts": {
+        "pcm_accepted_false_positive": 4,
+        "accepted_true_loop": 3,
+        "gicp_false_positive_not_used": 3
+      }
+    },
+    {
+      "scenario": "scenario_02_long2_rerun_20260528",
+      "output_dir": "/home/wurenche/Downloads/机器学习大作业/multi_robot_loop_detection/generated_data/gicp_passed_pcm_status_rerun_20260528/scenario_02_long2_rerun_20260528",
+      "num_pairs": 10,
+      "pcm_status_counts": {
+        "accepted_used": 9,
+        "pending_not_used": 1
+      },
+      "failure_type_counts": {
+        "pcm_accepted_false_positive": 9,
+        "gicp_false_positive_not_used": 1
+      }
+    }
+  ]
+}

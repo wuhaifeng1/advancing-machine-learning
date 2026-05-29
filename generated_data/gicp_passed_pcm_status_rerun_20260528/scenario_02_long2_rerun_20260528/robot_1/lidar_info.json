@@ -1,0 +1,10 @@
+{
+  "robot_id": "robot_1",
+  "bag_namespace": "/nano",
+  "lidar_model": "mining_nano_70deg",
+  "vertical_fov_min": -35.0,
+  "vertical_fov_max": 35.0,
+  "horizontal_fov": 360.0,
+  "num_rings": 32,
+  "has_intensity": true
+}

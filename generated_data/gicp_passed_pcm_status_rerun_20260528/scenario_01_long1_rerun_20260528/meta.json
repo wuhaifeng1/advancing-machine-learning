@@ -1,0 +1,27 @@
+{
+  "name": "scenario_01_long1_rerun_20260528",
+  "description": "long1 rerun on 2026-05-28. Labels are still assigned against the preserved correct 20260521_run2 long1 baseline.",
+  "source_bag": "/home/wurenche/C-SLAM-DATASET/fixed-merged-bag/long1_merged_fixed.bag",
+  "colrio_run_dir": "/home/wurenche/co_lrio_output/20260528_ml_joint_rerun_analysis/long1_my_long1_params",
+  "time_window": [
+    1000.0,
+    1070.0
+  ],
+  "label_rule": "long1_run2_baseline_middle",
+  "num_pairs": 10,
+  "num_pairs_with_pcd": 10,
+  "num_positive": 3,
+  "num_negative": 7,
+  "source_scenario_dir": "/home/wurenche/Downloads/机器学习大作业/extracted_data_rerun_20260528/scenario_01_long1_rerun_20260528",
+  "filter_rule": "status == passed and pcd_saved == 1",
+  "pcm_log_path": "/home/wurenche/co_lrio_output/20260528_ml_joint_rerun_analysis/long1_my_long1_params/long1_my_long1_params.launch.log",
+  "pcm_status_counts": {
+    "accepted_used": 7,
+    "rejected_not_used": 3
+  },
+  "failure_type_counts": {
+    "pcm_accepted_false_positive": 4,
+    "accepted_true_loop": 3,
+    "gicp_false_positive_not_used": 3
+  }
+}
